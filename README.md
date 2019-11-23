@@ -1,7 +1,7 @@
 # vhdl_rgbmatrix_driver
 A simple driver for RGB Led Panels of different sizes
 
-This project is an entry for the Arrow European FPGA Developer Contest 2019.
+This project is an entry for the Arrow European FPGA Developer Contest 2019 and the development target board is the CYC1000 (Intel Cyclone 10 LP 10CL025YU256C8G). The code is easily portable, I already tested it on different FPGAs.
 
 The goal of this project is to write a universal driver for rgb panels (HUB75) and provide a simple interface for microcontrollers to send pixeldata.  
 
