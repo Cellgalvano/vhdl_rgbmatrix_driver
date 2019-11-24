@@ -6,7 +6,7 @@ This project is an entry for the Arrow European FPGA Developer Contest 2019 and 
 The goal of this project is to write a universal driver for rgb panels (HUB75) and provide a simple interface for microcontrollers to send pixeldata.  
 
 Currently the dataflow looks like this:
-SPI or UART --> FPGA[ FRAMEBUFFER --> BUFFERCONV --> LEDCTRL ] --> PANEL
+![Alt text](images/overview.png?raw=true "Overview of dataflow")
 
 This project was initialy inspired by the code of https://github.com/adafruit/rgbmatrix-fpga
 
