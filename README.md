@@ -24,3 +24,4 @@ Features:
 - [ ] dynamicly reconfigurable gamma correction
 - [x] configuration via generics (config.vhd)
 - [ ] advanced command interface to change config on the fly
+- [ ] super small version to fit inside a CPLD with external SRAM (e.g. Max II EPM240)
